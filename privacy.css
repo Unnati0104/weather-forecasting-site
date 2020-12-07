@@ -10,7 +10,8 @@
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     margin-left: 10px;
-    margin-right: 10px;
+	margin-right: 10px;
+	text-align: justify !important;
 }
 .colorchange{
     animation:colorchangefunterior 1s infinite;
@@ -23,7 +24,7 @@
 }
 
 main .section-one{
-    width: 100%;
+    width: 99.5%;
 	height: 80vh;
 	padding-top: 0;
 	margin-left: 8px;
@@ -181,22 +182,42 @@ main .section-one .card .rightArrow .arrow.arrowRight{
 		opacity: 1;
 	}
 }
+.sec-3{
+	padding: 15px;
+}
 .sec-3 .right{
     width: 48%;
 	float: right;
-	content: justify;
+	
+}
+.sec-3 .right p{
+	text-align: justify !important;
+	font-size: 18px;
 }
 .sec-3 .right button{
-	background-color: blue;
-	border: 1px solid blue;
+	/*background-color: blue;
+	border: 1px solid blue;*/
+	width: 180px;
+	height: 30px;
+      border-radius: 10px;
+      border: white;
+      background-image: linear-gradient(to right,#007bce,#4dcafc);
 }
-.sec-3 .right a{
+.sec-3 .right button a{
 	text-decoration: none;
-    color: white;
+	color: white;
+	font-size: 15px;
 }
 .sec-3 .left{
     width: 48%;
-    float: left;
+	float: left;
+}
+.sec-3 .left p{
+	text-align: justify !important;
+	font-size: 18px;
+}
+.sec-3 ul li{
+	text-align: justify;
 }
 /*==========================responsive====================*/
 @media screen and (max-width: 991px){
@@ -254,6 +275,15 @@ main .section-one .card .rightArrow .arrow.arrowRight{
 		line-height: 35px;
 		font-size: 20px;
 	}
+	/*.sec-3 .right{
+		width: 100%;
+		height: auto;
+		margin-bottom: 10px;
+	}
+	.sec-3 .left{
+		width: 100%;
+		
+	}*/
 }
 
 /* For IPad Pros */
